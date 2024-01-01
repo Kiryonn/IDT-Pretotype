@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://cukp2a03plqb1"]
+
+[ext_resource type="Texture2D" uid="uid://bk0kd06argvh1" path="res://project/scenes/fablab/textures/fablab_concrete_floor_worn_001_diff_2k.jpg" id="1_budtp"]
+[ext_resource type="Texture2D" uid="uid://c1elomhwd601f" path="res://project/scenes/fablab/textures/fablab_concrete_floor_worn_001_rough_2k.png" id="2_g53tq"]
+
+[resource]
+resource_name = "floor"
+cull_mode = 2
+albedo_texture = ExtResource("1_budtp")
+metallic_texture = ExtResource("2_g53tq")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_g53tq")
+roughness_texture_channel = 1

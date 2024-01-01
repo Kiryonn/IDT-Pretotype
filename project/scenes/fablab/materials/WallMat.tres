@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://kdq68r7ntoiw"]
+
+[ext_resource type="Texture2D" uid="uid://bcpojmoyvjq3p" path="res://project/scenes/fablab/textures/fablab_concrete_wall_007_diff_2k.jpg" id="1_3swap"]
+[ext_resource type="Texture2D" uid="uid://cjgu17hcnk3i6" path="res://project/scenes/fablab/textures/fablab_concrete_wall_007_rough_2k.png" id="2_k7qva"]
+
+[resource]
+resource_name = "WallMat"
+cull_mode = 2
+albedo_texture = ExtResource("1_3swap")
+metallic_texture = ExtResource("2_k7qva")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_k7qva")
+roughness_texture_channel = 1
+uv1_scale = Vector3(0.025, 0.1, 1)
+uv1_offset = Vector3(-0.0825, 0.9, 0)

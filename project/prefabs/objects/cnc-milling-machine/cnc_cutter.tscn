@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5oopuslhv3o1"]
+
+[ext_resource type="PackedScene" uid="uid://dp2tshhv628j" path="res://project/prefabs/objects/cnc-milling-machine/cncc_model.tscn" id="1_83x4q"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1exii"]
+size = Vector3(0.673264, 0.235016, 0.657906)
+
+[node name="CncCutter" type="StaticBody3D"]
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0409927, 0.0871124, 0.199917)
+shape = SubResource("BoxShape3D_1exii")
+
+[node name="Model" parent="." instance=ExtResource("1_83x4q")]

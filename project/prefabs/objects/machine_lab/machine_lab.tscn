@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfri3lp5f6kci"]
+
+[ext_resource type="PackedScene" uid="uid://c7swyi8kroeja" path="res://project/prefabs/objects/machine_lab/machine_lab.glb" id="1_whf0h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_of4jj"]
+size = Vector3(3.01758, 5.11179, 2.01614)
+
+[node name="MachineLab" type="StaticBody3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_whf0h")]
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.232178, 0.713306, 0.39537)
+shape = SubResource("BoxShape3D_of4jj")

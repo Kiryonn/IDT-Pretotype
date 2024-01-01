@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://mc36xmkxb1va"]
+
+[resource]
+resource_name = "glassmat.001"
+transparency = 1
+cull_mode = 2
+albedo_color = Color(0.905882, 0.905882, 0.905882, 0.588235)
+roughness = 0.5

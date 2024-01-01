@@ -1,0 +1,362 @@
+[gd_scene load_steps=31 format=3 uid="uid://dp2tshhv628j"]
+
+[ext_resource type="ArrayMesh" uid="uid://m01642whjn8b" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh1.tres" id="1_ecmu0"]
+[ext_resource type="ArrayMesh" uid="uid://bbqg4x0bebtsp" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh2.tres" id="2_ru2ru"]
+[ext_resource type="ArrayMesh" uid="uid://r07w1yiv4kkg" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh3.tres" id="3_7dwrl"]
+[ext_resource type="ArrayMesh" uid="uid://blcgjfgy7mc3f" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh4.tres" id="4_7exum"]
+[ext_resource type="ArrayMesh" uid="uid://cqqlhxjkqkkfw" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh5.tres" id="5_la74a"]
+[ext_resource type="ArrayMesh" uid="uid://xigwutfrr3uo" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh6.tres" id="6_jp80q"]
+[ext_resource type="ArrayMesh" uid="uid://dhaos8iptoo0g" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh7.tres" id="7_g7iho"]
+[ext_resource type="ArrayMesh" uid="uid://26hvtybbfjtr" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh8.tres" id="8_mbmt7"]
+[ext_resource type="ArrayMesh" uid="uid://d4hwc6k61ibm6" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh9.tres" id="9_pqyuk"]
+[ext_resource type="ArrayMesh" uid="uid://t8rdynuq62y5" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh10.tres" id="10_6h4ta"]
+[ext_resource type="ArrayMesh" uid="uid://hgnrn271f1lt" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh11.tres" id="11_bjycb"]
+[ext_resource type="ArrayMesh" uid="uid://qx4dj5xr8kas" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh13.tres" id="13_hkf8e"]
+[ext_resource type="ArrayMesh" uid="uid://bm0h7n1d1om0r" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh14.tres" id="14_ixjah"]
+[ext_resource type="ArrayMesh" uid="uid://c6qieomwsqnub" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh15.tres" id="15_xu8nh"]
+[ext_resource type="ArrayMesh" uid="uid://kkhkj1kkjmjx" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh16.tres" id="16_lh8cw"]
+[ext_resource type="ArrayMesh" uid="uid://brbbg78upw2rl" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh18.tres" id="17_dvh5k"]
+[ext_resource type="ArrayMesh" uid="uid://kvm0l1ta2gy8" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh19.tres" id="18_uhqh1"]
+[ext_resource type="ArrayMesh" uid="uid://dxb638bnfqitc" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh20.tres" id="19_q1fd7"]
+[ext_resource type="ArrayMesh" uid="uid://cmhrfedh6fxlr" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh21.tres" id="20_p5dwp"]
+[ext_resource type="ArrayMesh" uid="uid://bf5k5cr6qju0o" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh22.tres" id="21_c8rpj"]
+[ext_resource type="ArrayMesh" uid="uid://dsi4p5241xcn2" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh23.tres" id="22_w2ppk"]
+[ext_resource type="ArrayMesh" uid="uid://sskogq23fnat" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh24.tres" id="23_2flxg"]
+[ext_resource type="ArrayMesh" uid="uid://igfmmlm7yrjx" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh25.tres" id="24_s8eqr"]
+[ext_resource type="ArrayMesh" uid="uid://crfeqlmvctm0v" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh26.tres" id="25_ccrwc"]
+[ext_resource type="ArrayMesh" uid="uid://cv0bbnrt1ir6x" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh27.tres" id="26_ybsrq"]
+[ext_resource type="ArrayMesh" uid="uid://bk3winlr4aad5" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh28.tres" id="27_dtdd5"]
+[ext_resource type="ArrayMesh" uid="uid://dgf5rhfsyrypv" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh29.tres" id="28_hbd64"]
+[ext_resource type="ArrayMesh" uid="uid://c3gy26u87gshk" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh30.tres" id="29_0sney"]
+[ext_resource type="ArrayMesh" uid="uid://bovqy5rrd0idi" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh31.tres" id="30_okrvo"]
+[ext_resource type="ArrayMesh" uid="uid://cyffubpgftamw" path="res://project/prefabs/objects/cnc-milling-machine/meshes/mesh32.tres" id="31_oe7ik"]
+
+[node name="Model" type="Node3D"]
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.00149037, 2.42412e-10, -5.41645e-10, -2.63035e-10, 0.00137352, -6.2367e-17, 3.57257e-10, 9.60194e-17, 0.00225958, 0.271553, 0.0528867, -0.471766)
+mesh = ExtResource("1_ecmu0")
+skeleton = NodePath("")
+
+[node name="Mesh2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.00190498, -9.7317e-12, 6.43509e-09, -1.24379e-11, 0.00149037, 6.79705e-10, -4.29995e-09, 3.55332e-10, -0.00285089, -0.0716245, 0.131386, 0.202914)
+mesh = ExtResource("2_ru2ru")
+skeleton = NodePath("")
+
+[node name="Mesh3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.77386e-09, 9.059e-11, 0.00208744, 8.86929e-11, 0.00151985, -1.24421e-10, -0.00148802, 9.05901e-11, 2.48842e-09, -0.621663, 0.0422924, -0.038736)
+mesh = ExtResource("3_7dwrl")
+skeleton = NodePath("")
+
+[node name="node_id569" type="Node3D" parent="."]
+transform = Transform3D(0.0014895, -1.88342e-10, -5.07901e-05, 1.89701e-10, 0.00149037, 3.66538e-11, 5.07901e-05, -4.30974e-11, 0.0014895, 0.284565, 0.0447246, -0.169014)
+
+[node name="node_id505" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, -167.484, -42.5933, 264.787)
+
+[node name="node_id415" type="Node3D" parent="node_id569/node_id505"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.81842e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="Mesh4" type="MeshInstance3D" parent="node_id569/node_id505/node_id415"]
+transform = Transform3D(1, 4.20074e-05, -4.9644e-07, 4.47451e-07, 0.320505, 0.999814, 2.54066e-06, -16.5905, 0.019315, 0, 0, 0)
+mesh = ExtResource("4_7exum")
+skeleton = NodePath("")
+
+[node name="node_id506" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, -172.459, -41.584, 89.5745)
+
+[node name="node_id416" type="Node3D" parent="node_id569/node_id506"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="Mesh5" type="MeshInstance3D" parent="node_id569/node_id506/node_id416"]
+transform = Transform3D(1, 3.25365e-05, -6.137e-07, 5.64687e-07, 0.248233, 0.999814, 2.54304e-06, -12.8494, 0.019315, 0, 0, 0)
+mesh = ExtResource("5_la74a")
+skeleton = NodePath("")
+
+[node name="node_id507" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, -160.567, -44.4362, 438.299)
+
+[node name="node_id414" type="Node3D" parent="node_id569/node_id507"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.81842e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="Mesh6" type="MeshInstance3D" parent="node_id569/node_id507/node_id414"]
+transform = Transform3D(1, 3.45753e-05, 9.33574e-09, -5.82341e-08, 0.263794, 0.999814, 2.53101e-06, -13.6546, 0.0193154, 0, 0, 0)
+mesh = ExtResource("6_jp80q")
+skeleton = NodePath("")
+
+[node name="node_id508" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, 43.8825, -22.0478, 102.799)
+
+[node name="node_id395" type="Node3D" parent="node_id569/node_id508"]
+transform = Transform3D(0.999813, 0.024727, -2.6099e-08, -0.0193155, 1.27992, 9.4988e-08, 2.79289e-08, -1.20932e-07, 1, 0, 0, 0)
+
+[node name="Mesh7" type="MeshInstance3D" parent="node_id569/node_id508/node_id395"]
+transform = Transform3D(0.0161054, -0.584218, 97.9718, -0.826176, 30.2408, 1.89271, -42.773, -0.584333, 0.000332918, 0, 0, 0)
+mesh = ExtResource("7_g7iho")
+skeleton = NodePath("")
+
+[node name="node_id509" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, 43.1757, -21.4162, 62.0168)
+
+[node name="node_id396" type="Node3D" parent="node_id569/node_id509"]
+transform = Transform3D(0.999813, 0.024727, -2.6099e-08, -0.0193155, 1.27992, 9.4988e-08, 2.79289e-08, -1.20932e-07, 1, 0, 0, 0)
+
+[node name="Mesh8" type="MeshInstance3D" parent="node_id569/node_id509/node_id396"]
+transform = Transform3D(0.0164331, -0.596105, 8.08973, -0.842985, 30.8561, 0.156285, -43.6432, -0.596221, 2.74897e-05, 0, 0, 0)
+mesh = ExtResource("8_mbmt7")
+skeleton = NodePath("")
+
+[node name="node_id510" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, -358.36, -22.933, 456.036)
+
+[node name="node_id494" type="Node3D" parent="node_id569/node_id510"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id417" type="Node3D" parent="node_id569/node_id510/node_id494"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh9" type="MeshInstance3D" parent="node_id569/node_id510/node_id494/node_id417"]
+transform = Transform3D(7.68235e-05, 8.77048e-06, 7.69155, 3.33287e-05, 53.3664, -1.26407e-06, -49.5725, 3.58794e-05, 1.19198e-05, 0, 0, 0)
+mesh = ExtResource("9_pqyuk")
+skeleton = NodePath("")
+
+[node name="node_id511" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94054e-08, -0.999419, 7.41578e-07, -0.0340823, -370.981, -0.921565, 251.029)
+
+[node name="node_id495" type="Node3D" parent="node_id569/node_id511"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id418" type="Node3D" parent="node_id569/node_id511/node_id495"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh10" type="MeshInstance3D" parent="node_id569/node_id511/node_id495/node_id418"]
+transform = Transform3D(0.999998, 5.22748e-07, 1.19209e-07, -1.19209e-07, -1.16166e-07, 0.999999, 5.36441e-07, -0.974473, -1.19209e-07, 0, 0, 0)
+mesh = ExtResource("10_6h4ta")
+skeleton = NodePath("")
+
+[node name="node_id512" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, -365.845, -22.5127, 238.974)
+
+[node name="node_id496" type="Node3D" parent="node_id569/node_id512"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id419" type="Node3D" parent="node_id569/node_id512/node_id496"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh11" type="MeshInstance3D" parent="node_id569/node_id512/node_id496/node_id419"]
+transform = Transform3D(-27.4006, -1.67372e-05, 0.000117326, -9.42993e-06, 48.6334, -5.86631e-05, -6.53282e-06, -5.79756e-06, -492.102, 0, 0, 0)
+mesh = ExtResource("11_bjycb")
+skeleton = NodePath("")
+
+[node name="node_id513" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, -180.914, -21.0769, 50.6252)
+
+[node name="node_id497" type="Node3D" parent="node_id569/node_id513"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id420" type="Node3D" parent="node_id569/node_id513/node_id497"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh12" type="MeshInstance3D" parent="node_id569/node_id513/node_id497/node_id420"]
+transform = Transform3D(3.10309e-05, -2.04552e-06, 499.873, 1.10241e-05, 45.757, 2.2346e-05, -27.4006, 1.84095e-05, 0.0005661, 0, 0, 0)
+mesh = ExtResource("11_bjycb")
+skeleton = NodePath("")
+
+[node name="node_id514" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, -371.961, -23.5918, 57.4913)
+
+[node name="node_id498" type="Node3D" parent="node_id569/node_id514"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="Mesh13" type="MeshInstance3D" parent="node_id569/node_id514/node_id498"]
+transform = Transform3D(-29.3551, -2.02979e-05, -9.08697e-05, -1.02531e-05, 52.0927, -0.842786, -6.13448e-05, 1.00639, 43.6244, 0, 0, 0)
+mesh = ExtResource("13_hkf8e")
+skeleton = NodePath("")
+
+[node name="node_id515" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, -368.213, -47.4699, 59.813)
+
+[node name="node_id499" type="Node3D" parent="node_id569/node_id515"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id421" type="Node3D" parent="node_id569/node_id515/node_id499"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh14" type="MeshInstance3D" parent="node_id569/node_id515/node_id499/node_id421"]
+transform = Transform3D(-36.2556, 7.22487e-06, 3.40674e-07, -1.2966e-05, -4.81659e-06, -0.952594, 6.48301e-06, 40.4044, -1.13558e-07, 0, 0, 0)
+mesh = ExtResource("14_ixjah")
+skeleton = NodePath("")
+
+[node name="node_id516" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, 10.4432, -47.4699, 48.2589)
+
+[node name="node_id500" type="Node3D" parent="node_id569/node_id516"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id422" type="Node3D" parent="node_id569/node_id516/node_id500"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh15" type="MeshInstance3D" parent="node_id569/node_id516/node_id500/node_id422"]
+transform = Transform3D(36.2556, -3.13078e-05, 4.54232e-07, 1.7288e-05, -4.81658e-06, -0.952594, 2.8093e-05, 40.4044, -1.13558e-07, 0, 0, 0)
+mesh = ExtResource("15_xu8nh")
+skeleton = NodePath("")
+
+[node name="node_id517" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, 13.9529, -23.5918, 46.221)
+
+[node name="node_id501" type="Node3D" parent="node_id569/node_id517"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="Mesh16" type="MeshInstance3D" parent="node_id569/node_id517/node_id501"]
+transform = Transform3D(-29.3551, -3.5465e-05, -0.000112976, -1.85095e-05, 52.0927, -0.842788, -7.63795e-05, 1.00639, 43.6244, 0, 0, 0)
+mesh = ExtResource("16_lh8cw")
+skeleton = NodePath("")
+
+[node name="node_id518" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, 26.9328, -23.3489, 442.908)
+
+[node name="node_id502" type="Node3D" parent="node_id569/node_id518"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id423" type="Node3D" parent="node_id569/node_id518/node_id502"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh17" type="MeshInstance3D" parent="node_id569/node_id518/node_id502/node_id423"]
+transform = Transform3D(7.68235e-05, -3.98662e-06, 7.69155, 2.14785e-05, 53.3664, 5.74576e-07, -49.5725, 2.31223e-05, 1.19198e-05, 0, 0, 0)
+mesh = ExtResource("9_pqyuk")
+skeleton = NodePath("")
+
+[node name="node_id519" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94054e-08, -0.999419, 7.41578e-07, -0.0340823, 25.7988, -0.922477, 233.743)
+
+[node name="node_id503" type="Node3D" parent="node_id569/node_id519"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id424" type="Node3D" parent="node_id569/node_id519/node_id503"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh18" type="MeshInstance3D" parent="node_id569/node_id519/node_id503/node_id424"]
+transform = Transform3D(0.999998, 5.22748e-07, 2.38418e-07, -2.38418e-07, -1.16166e-07, 0.999999, 5.36441e-07, -0.974473, -1.19209e-07, 0, 0, 0)
+mesh = ExtResource("17_dvh5k")
+skeleton = NodePath("")
+
+[node name="node_id520" type="Node3D" parent="node_id569"]
+transform = Transform3D(-0.0340823, 1.14747e-07, 0.999419, 7.45057e-07, 1, -8.94055e-08, -0.999418, 7.41577e-07, -0.0340823, 19.5844, -22.5152, 225.831)
+
+[node name="node_id504" type="Node3D" parent="node_id569/node_id520"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id425" type="Node3D" parent="node_id569/node_id520/node_id504"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh19" type="MeshInstance3D" parent="node_id569/node_id520/node_id504/node_id425"]
+transform = Transform3D(-27.4006, -1.67372e-05, 0.000117326, -9.42992e-06, 48.6334, -5.86631e-05, -6.53282e-06, -5.79756e-06, -492.102, 0, 0, 0)
+mesh = ExtResource("18_uhqh1")
+skeleton = NodePath("")
+
+[node name="node_id581" type="Node3D" parent="."]
+transform = Transform3D(0.0014895, 8.30265e-10, -5.07969e-05, -8.23746e-10, 0.00149037, 2.0531e-10, 5.07969e-05, -1.77115e-10, 0.0014895, 0.289147, 0.0447245, -0.183426)
+
+[node name="Mesh20" type="MeshInstance3D" parent="node_id581"]
+transform = Transform3D(0.518371, -3.39556e-07, 0.0176785, 2.52794e-07, 0.789486, -8.675e-07, -0.0176785, 1.3328e-06, 0.518371, -167.142, 16.5416, 271.169)
+mesh = ExtResource("19_q1fd7")
+skeleton = NodePath("")
+
+[node name="node_id41" type="Node3D" parent="node_id581"]
+transform = Transform3D(0.339995, -1.05677e-08, 0.0115956, 2.1666e-08, 0.340192, -3.25234e-07, -0.0115956, 3.25784e-07, 0.339994, -289.469, 36.1646, 276.885)
+
+[node name="Mesh21" type="MeshInstance3D" parent="node_id581/node_id41"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.333, -25.2336, 7.5)
+mesh = ExtResource("20_p5dwp")
+skeleton = NodePath("")
+
+[node name="node_id437" type="Node3D" parent="node_id581"]
+transform = Transform3D(0.999419, 2.54657e-08, 0.0340864, 7.36833e-12, 0.737452, -1.01329e-06, -0.0340864, 7.4682e-07, 0.999419, -364.81, 30.1356, 266.492)
+
+[node name="Mesh22" type="MeshInstance3D" parent="node_id581/node_id437"]
+transform = Transform3D(-0.000160068, -3.59578e-05, -22.6251, -1.89038e-05, 74.9894, -1.08488e-05, 55.9477, 2.53376e-05, -6.47309e-05, 0, 0, 0)
+mesh = ExtResource("21_c8rpj")
+skeleton = NodePath("")
+
+[node name="node_id438" type="Node3D" parent="node_id581"]
+transform = Transform3D(0.999419, 2.54657e-08, 0.0340864, 7.36833e-12, 0.737452, -1.01329e-06, -0.0340864, 7.4682e-07, 0.999419, 20.1434, 30.1587, 253.363)
+
+[node name="Mesh23" type="MeshInstance3D" parent="node_id581/node_id438"]
+transform = Transform3D(-0.000153398, -2.63716e-05, -22.6251, -3.43598e-05, 74.9894, -7.95655e-06, 55.9477, 4.6054e-05, -6.20338e-05, 0, 0, 0)
+mesh = ExtResource("22_w2ppk")
+skeleton = NodePath("")
+
+[node name="node_id547" type="Node3D" parent="node_id581"]
+transform = Transform3D(0.999419, 3.45321e-08, 0.0340864, 7.31859e-12, 1, -1.01329e-06, -0.0340864, 1.0127e-06, 0.999419, 36.2402, 31.45, 253.248)
+
+[node name="Mesh24" type="MeshInstance3D" parent="node_id581/node_id547"]
+transform = Transform3D(-8.12483e-05, -1.44264e-05, -73.2176, -1.19157e-05, 30.2521, -3.49153e-05, 29.633, 1.21646e-05, -0.000200749, 0, 0, 0)
+mesh = ExtResource("23_2flxg")
+skeleton = NodePath("")
+
+[node name="node_id548" type="Node3D" parent="node_id581"]
+transform = Transform3D(0.999419, 3.45321e-08, 0.0340864, 7.31859e-12, 1, -1.01329e-06, -0.0340864, 1.0127e-06, 0.999419, -175.454, 29.7545, 260.547)
+
+[node name="Mesh25" type="MeshInstance3D" parent="node_id581/node_id548"]
+transform = Transform3D(-9.14596e-05, -2.09722e-05, -492.102, -4.27991e-06, 48.6336, -0.000212208, 27.4007, 7.59636e-06, -0.00164257, 0, 0, 0)
+mesh = ExtResource("24_s8eqr")
+skeleton = NodePath("")
+
+[node name="node_id549" type="Node3D" parent="node_id581"]
+transform = Transform3D(0.999419, 3.45321e-08, 0.0340864, 7.31859e-12, 1, -1.01329e-06, -0.0340864, 1.0127e-06, 0.999419, -175.454, 29.7545, 260.547)
+
+[node name="Mesh26" type="MeshInstance3D" parent="node_id581/node_id549"]
+transform = Transform3D(-9.14596e-05, -2.09722e-05, -492.102, -4.27991e-06, 48.6336, -0.000212208, 27.4007, 7.59636e-06, -0.00164257, 0, 0, 0)
+mesh = ExtResource("25_ccrwc")
+skeleton = NodePath("")
+
+[node name="node_id612" type="Node3D" parent="."]
+transform = Transform3D(-0.0014895, 9.27824e-10, 5.07957e-05, 9.73254e-10, 0.00149037, 1.31634e-09, -5.07957e-05, 1.34875e-09, -0.0014895, -0.337475, -0.134473, 0.732378)
+
+[node name="node_id462" type="Node3D" parent="node_id612"]
+transform = Transform3D(-0.999419, -3.45314e-08, -0.0340859, 7.58682e-12, 1, -1.01329e-06, 0.0340859, -1.0127e-06, -0.999419, -28.8658, -98.8826, 741.501)
+
+[node name="Mesh27" type="MeshInstance3D" parent="node_id612/node_id462"]
+transform = Transform3D(1, -2.08997e-07, -2.26498e-06, 4.87383e-07, 0.428815, -6.5925e-07, 2.26498e-06, 2.82696e-07, 1, 125.677, 238.43, 420.04)
+mesh = ExtResource("26_ybsrq")
+skeleton = NodePath("")
+
+[node name="Mesh28" type="MeshInstance3D" parent="node_id612/node_id462"]
+transform = Transform3D(0.69431, 0, 0, 0, 0.780221, 0, 0, 0, 0.69431, 124.879, 230.605, 434.472)
+mesh = ExtResource("27_dtdd5")
+skeleton = NodePath("")
+
+[node name="Mesh29" type="MeshInstance3D" parent="node_id612/node_id462"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 125.708, 195.366, 432.359)
+mesh = ExtResource("28_hbd64")
+skeleton = NodePath("")
+
+[node name="node_id529" type="Node3D" parent="node_id612"]
+transform = Transform3D(0.0230676, 1.63155e-07, -0.878792, 5.19925e-07, 1, 1.66594e-07, 0.676248, -7.74403e-07, 0.0299766, -166.143, 152.358, 339.315)
+
+[node name="node_id530" type="Node3D" parent="node_id612/node_id529"]
+transform = Transform3D(-1.07288e-06, 0.0193157, -0.999813, 3.91155e-08, 0.999813, 0.0193157, 1, -1.95578e-08, -1.07288e-06, 0, 0, 0)
+
+[node name="node_id531" type="Node3D" parent="node_id612/node_id529/node_id530"]
+transform = Transform3D(1, -1.52291e-07, -1.9038e-06, 1.1549e-07, 0.999814, -0.0193151, 1.90638e-06, 0.0193151, 0.999814, 0, 0, 0)
+
+[node name="Mesh30" type="MeshInstance3D" parent="node_id612/node_id529/node_id530/node_id531"]
+transform = Transform3D(7.68235e-05, -3.98662e-06, 7.69155, 2.14785e-05, 53.3664, 5.74576e-07, -49.5725, 2.31223e-05, 1.19198e-05, 0, 0, 0)
+mesh = ExtResource("29_0sney")
+skeleton = NodePath("")
+
+[node name="node_id556" type="Node3D" parent="node_id612"]
+transform = Transform3D(6.65994e-08, 0.999418, -0.0340799, 0.558676, 0, 9.20145e-07, 5.11983e-07, -0.0340799, -0.999417, -165.904, 186.02, 342.239)
+
+[node name="Mesh31" type="MeshInstance3D" parent="node_id612/node_id556"]
+transform = Transform3D(-8.12483e-05, -1.44264e-05, -73.2176, -1.19157e-05, 30.2521, -3.49153e-05, 29.633, 1.21646e-05, -0.000200749, 0, 0, 0)
+mesh = ExtResource("30_okrvo")
+skeleton = NodePath("")
+
+[node name="node_id601" type="Node3D" parent="node_id612"]
+transform = Transform3D(9.24318e-08, 0.752896, -0.0265582, 0.775374, 0, 7.19963e-07, 7.13458e-07, -0.0256736, -0.778836, -164.608, 174.294, 342.725)
+
+[node name="Mesh32" type="MeshInstance3D" parent="node_id612/node_id601"]
+transform = Transform3D(-8.12483e-05, -1.44264e-05, -73.2176, -1.19157e-05, 30.2521, -3.49153e-05, 29.633, 1.21646e-05, -0.000200749, 0, 0, 0)
+mesh = ExtResource("31_oe7ik")
+skeleton = NodePath("")

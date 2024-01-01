@@ -1,0 +1,757 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://cyvin15b7mybv"
+path="res://.godot/imported/fablab.glb-4acc17446f91bc4ca3f961e37a7f2e1c.scn"
+
+[deps]
+
+source_file="res://project/scenes/fablab/fablab.glb"
+dest_files=["res://.godot/imported/fablab.glb-4acc17446f91bc4ca3f961e37a7f2e1c.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Model"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"materials": {
+"Labjet_Basemat": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/Labjet_Basemat.tres"
+},
+"Labjet_secondMat": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/Labjet_secondMat.tres"
+},
+"Material.002": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/Material.002.tres"
+},
+"Material.003": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/Material.003.tres"
+},
+"Material.004": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/Material.004.tres"
+},
+"Oak 001": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/Oak 001.tres"
+},
+"WallMat": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/WallMat.tres"
+},
+"Yellow_submarien": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/Yellow_submarien.tres"
+},
+"black": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/black.tres"
+},
+"black.002": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/black.002.tres"
+},
+"black.003": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/black.003.tres"
+},
+"black.004": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/black.004.tres"
+},
+"black.005": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/black.005.tres"
+},
+"black.006": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/black.006.tres"
+},
+"black.007": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/black.007.tres"
+},
+"floor": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/floor.tres"
+},
+"glass dvere": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/glass dvere.tres"
+},
+"glass dvere.002": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/glass dvere.002.tres"
+},
+"glass dvere.003": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/glass dvere.003.tres"
+},
+"glass dvere.004": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/glass dvere.004.tres"
+},
+"glass dvere.005": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/glass dvere.005.tres"
+},
+"glass dvere.006": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/glass dvere.006.tres"
+},
+"glass dvere.007": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/glass dvere.007.tres"
+},
+"glassmat": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/glassmat.tres"
+},
+"glassmat.001": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/glassmat.001.tres"
+},
+"grey": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/grey.tres"
+},
+"grey.002": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/grey.002.tres"
+},
+"grey.003": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/grey.003.tres"
+},
+"grey.004": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/grey.004.tres"
+},
+"grey.005": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/grey.005.tres"
+},
+"grey.006": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/grey.006.tres"
+},
+"grey.007": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/grey.007.tres"
+},
+"prah.001": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/prah.001.tres"
+},
+"prah.002": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/prah.002.tres"
+},
+"prah.003": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/prah.003.tres"
+},
+"prah.004": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/prah.004.tres"
+},
+"prah.005": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/prah.005.tres"
+},
+"prah.006": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/prah.006.tres"
+},
+"prah.007": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/prah.007.tres"
+},
+"prah.008": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/prah.008.tres"
+},
+"stainless": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/stainless.tres"
+},
+"stainless.002": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/stainless.002.tres"
+},
+"stainless.003": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/stainless.003.tres"
+},
+"stainless.004": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/stainless.004.tres"
+},
+"stainless.005": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/stainless.005.tres"
+},
+"stainless.006": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/stainless.006.tres"
+},
+"stainless.007": {
+"use_external/enabled": true,
+"use_external/path": "res://project/scenes/fablab/materials/stainless.007.tres"
+}
+},
+"meshes": {
+"fablab_Cube_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_001.res"
+},
+"fablab_Cube_002": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_002.res"
+},
+"fablab_Cube_003": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_003.res"
+},
+"fablab_Cube_004": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_004.res"
+},
+"fablab_Cube_005": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_005.res"
+},
+"fablab_Cube_006": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_006.res"
+},
+"fablab_Cube_007": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_007.res"
+},
+"fablab_Cube_008": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_008.res"
+},
+"fablab_Cube_009": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_009.res"
+},
+"fablab_Cube_010": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_010.res"
+},
+"fablab_Cube_011": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_011.res"
+},
+"fablab_Cube_012": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_012.res"
+},
+"fablab_Cube_013": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_013.res"
+},
+"fablab_Cube_014": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_014.res"
+},
+"fablab_Cube_015": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_015.res"
+},
+"fablab_Cube_016": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_016.res"
+},
+"fablab_Cube_017": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_017.res"
+},
+"fablab_Cube_018": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_018.res"
+},
+"fablab_Cube_019": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_019.res"
+},
+"fablab_Cube_020": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_020.res"
+},
+"fablab_Cube_021": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_021.res"
+},
+"fablab_Cube_022": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_022.res"
+},
+"fablab_Cube_023": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_023.res"
+},
+"fablab_Cube_024": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_024.res"
+},
+"fablab_Cube_025": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_025.res"
+},
+"fablab_Cube_026": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_026.res"
+},
+"fablab_Cube_027": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_027.res"
+},
+"fablab_Cube_028": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_028.res"
+},
+"fablab_Cube_029": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_029.res"
+},
+"fablab_Cube_030": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_030.res"
+},
+"fablab_Cube_031": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_031.res"
+},
+"fablab_Cube_032": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_032.res"
+},
+"fablab_Cube_037": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_037.res"
+},
+"fablab_Cube_038": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_038.res"
+},
+"fablab_Cube_039": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Cube_039.res"
+},
+"fablab_Kostka_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Kostka_001.res"
+},
+"fablab_Plane_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_001.res"
+},
+"fablab_Plane_002": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_002.res"
+},
+"fablab_Plane_004": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_004.res"
+},
+"fablab_Plane_005": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_005.res"
+},
+"fablab_Plane_006": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_006.res"
+},
+"fablab_Plane_007": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_007.res"
+},
+"fablab_Plane_008": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_008.res"
+},
+"fablab_Plane_009": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_009.res"
+},
+"fablab_Plane_010": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_010.res"
+},
+"fablab_Plane_011": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_011.res"
+},
+"fablab_Plane_012": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_012.res"
+},
+"fablab_Plane_013": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_013.res"
+},
+"fablab_Plane_014": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_014.res"
+},
+"fablab_Plane_015": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_015.res"
+},
+"fablab_Plane_016": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_016.res"
+},
+"fablab_Plane_018": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_018.res"
+},
+"fablab_Plane_019": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://project/scenes/fablab/meshes/fablab_Plane_019.res"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=0

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dag3bm4qjug1h"]
+
+[ext_resource type="ArrayMesh" uid="uid://c748mkea13ij" path="res://project/prefabs/objects/3d_printer/3d_printer.obj" id="1_52y4b"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jwoog"]
+size = Vector3(0.473, 0.55, 0.346)
+
+[node name="3DPrinter" type="StaticBody3D"]
+
+[node name="CollisionShape" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_jwoog")
+
+[node name="Model" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.003, 0, 0, 0, -1.31134e-10, 0.003, 0, -0.003, -1.31134e-10, 0.00415304, -0.274737, -0.0189473)
+mesh = ExtResource("1_52y4b")

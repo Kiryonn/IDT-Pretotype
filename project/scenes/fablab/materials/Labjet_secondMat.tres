@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://18xe080ijm0"]
+
+[resource]
+resource_name = "Labjet_secondMat"
+cull_mode = 2
+albedo_color = Color(0.118619, 0.215106, 0.906332, 1)
+roughness = 0.5

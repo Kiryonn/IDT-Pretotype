@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://tc2a0etva8l3"]
+
+[resource]
+resource_name = "Yellow_submarien"
+cull_mode = 2
+albedo_color = Color(1, 0.54844, 0.202434, 1)
+roughness = 0.5

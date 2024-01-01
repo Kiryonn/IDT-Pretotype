@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cei2m3wgokj21"]
+
+[resource]
+resource_name = "Black Plastic"
+cull_mode = 2
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.213437, 0.213437, 0.213437, 1)

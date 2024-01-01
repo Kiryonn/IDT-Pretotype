@@ -1,0 +1,95 @@
+[gd_scene load_steps=12 format=3 uid="uid://d1jjvakff2n5l"]
+
+[ext_resource type="PackedScene" uid="uid://c0h72chrvl7c2" path="res://project/scenes/fablab/fablab.tscn" id="1_kt4kl"]
+[ext_resource type="Script" path="res://project/scripts/notice_area.gd" id="2_ivhsr"]
+[ext_resource type="PackedScene" uid="uid://detgnccg6y63r" path="res://project/prefabs/notices/3d_printer_notice.tscn" id="5_jq5tm"]
+[ext_resource type="PackedScene" uid="uid://cgnv8hri4fsyb" path="res://project/prefabs/player/player_3d.tscn" id="6_jlqen"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_durc1"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_unouy"]
+sky_material = SubResource("ProceduralSkyMaterial_durc1")
+
+[sub_resource type="Environment" id="Environment_s8n2r"]
+background_mode = 2
+sky = SubResource("Sky_unouy")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nt3iy"]
+size = Vector3(0.5, 0.5, 0.7)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5ubqa"]
+size = Vector3(0.5, 0.5, 0.7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s3jcw"]
+transparency = 1
+albedo_color = Color(0, 0.65098, 1, 0.392157)
+emission_enabled = true
+emission = Color(0.372549, 0.729412, 1, 1)
+emission_energy_multiplier = 3.0
+
+[sub_resource type="GDScript" id="GDScript_55gug"]
+script/source = "extends MeshInstance3D
+var time = 0
+const frequency :float = 3
+
+func _process(delta: float) -> void:
+	time += delta
+	var mat := get_surface_override_material(0)
+	var emission_energy_multiplier :float = (sin(time*frequency)+1) * 1.5 + 3
+	mat.set(\"emission_energy_multiplier\", emission_energy_multiplier)
+"
+
+[node name="FablabScene" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_s8n2r")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.0871558, 0.996195, 0, -0.996195, 0.0871558, 0, 10, 0)
+
+[node name="Fablab" parent="." instance=ExtResource("1_kt4kl")]
+
+[node name="Areas" type="Node3D" parent="Fablab"]
+
+[node name="3DPrinterArea" type="Area3D" parent="Fablab/Areas" node_paths=PackedStringArray("notice")]
+script = ExtResource("2_ivhsr")
+notice = NodePath("../../../Notices/3DPrinterNotice")
+
+[node name="Collision" type="CollisionShape3D" parent="Fablab/Areas/3DPrinterArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.58762, 0.416596, -0.59648)
+shape = SubResource("BoxShape3D_nt3iy")
+
+[node name="Visualiser" type="MeshInstance3D" parent="Fablab/Areas/3DPrinterArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.58762, 0.416596, -0.59648)
+visible = false
+mesh = SubResource("BoxMesh_5ubqa")
+surface_material_override/0 = SubResource("StandardMaterial3D_s3jcw")
+script = SubResource("GDScript_55gug")
+
+[node name="Player3D" parent="Fablab" instance=ExtResource("6_jlqen")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 7.14428, 0.950063, 4.86552)
+
+[node name="Notices" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 50.0
+offset_top = 50.0
+offset_right = -50.0
+offset_bottom = -50.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="3DPrinterNotice" parent="Notices" instance=ExtResource("5_jq5tm")]
+visible = false
+layout_mode = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0

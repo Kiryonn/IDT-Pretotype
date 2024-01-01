@@ -1,0 +1,215 @@
+[gd_scene load_steps=9 format=3 uid="uid://detgnccg6y63r"]
+
+[ext_resource type="Texture2D" uid="uid://bgvklu86soam7" path="res://project/icons/disclaimer.png" id="1_fw73r"]
+[ext_resource type="Script" path="res://project/prefabs/notices/3d_printer_notice.gd" id="1_r4ofw"]
+[ext_resource type="VideoStream" path="res://project/medias/ultimaker_s5_usage.ogv" id="2_txnov"]
+[ext_resource type="Texture2D" uid="uid://6yj3i41skm38" path="res://project/icons/play.png" id="4_ad5xx"]
+[ext_resource type="Texture2D" uid="uid://s6ocmmrqwcxu" path="res://project/icons/pause.png" id="5_tybh2"]
+
+[sub_resource type="Animation" id="Animation_yx6en"]
+resource_name = "pause"
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG/UsageVideoIndicator:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("5_tybh2")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG/UsageVideoIndicator:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG/UsageVideoIndicator:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(1, 1, 1, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_hon7x"]
+resource_name = "play"
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG/UsageVideoIndicator:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("4_ad5xx")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG/UsageVideoIndicator:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG/UsageVideoIndicator:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0.745098, 0.745098, 0.745098, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3ywki"]
+_data = {
+"pause": SubResource("Animation_yx6en"),
+"play": SubResource("Animation_hon7x")
+}
+
+[node name="3DPrinterNotice" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 50.0
+offset_top = 50.0
+offset_right = -50.0
+offset_bottom = -50.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 1
+script = ExtResource("1_r4ofw")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer"]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Title" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "Imprimante 3D"
+horizontal_alignment = 1
+
+[node name="Warning" type="HBoxContainer" parent="MarginContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="CenterContainer" type="Control" parent="MarginContainer/ScrollContainer/VBoxContainer/Warning"]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="DisclaimerIcon" type="TextureRect" parent="MarginContainer/ScrollContainer/VBoxContainer/Warning/CenterContainer"]
+layout_mode = 2
+offset_right = 128.0
+offset_bottom = 128.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_fw73r")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="MarginContainer/ScrollContainer/VBoxContainer/Warning"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 2
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 20
+text = "L'impripante 3D ne doit pas être exposée au soleil."
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="MarginContainer/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 300)
+layout_mode = 2
+ratio = 1.7778
+stretch_mode = 1
+alignment_vertical = 0
+
+[node name="VideoBG" type="Panel" parent="MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer"]
+layout_mode = 2
+
+[node name="UsageVideo" type="VideoStreamPlayer" parent="MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("2_txnov")
+expand = true
+
+[node name="UsageVideoIndicator" type="TextureRect" parent="MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.0
+offset_top = -50.0
+offset_right = 350.0
+offset_bottom = 350.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.25, 0.25)
+mouse_filter = 2
+texture = ExtResource("4_ad5xx")
+
+[node name="UsageVideoAnimationPlayer" type="AnimationPlayer" parent="MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG"]
+unique_name_in_owner = true
+root_node = NodePath("../../../../../..")
+libraries = {
+"": SubResource("AnimationLibrary_3ywki")
+}
+
+[connection signal="visibility_changed" from="." to="." method="_on_visibility_changed"]
+[connection signal="gui_input" from="MarginContainer/ScrollContainer/VBoxContainer/AspectRatioContainer/VideoBG/UsageVideo" to="." method="_on_usage_video_click"]

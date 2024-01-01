@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b6amka7q1vxls"]
+
+[resource]
+resource_name = "stainless.005"
+cull_mode = 2
+albedo_color = Color(0.708351, 0.719129, 0.719129, 1)
+metallic = 1.0
+roughness = 0.35
